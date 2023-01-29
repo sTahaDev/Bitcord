@@ -1,0 +1,152 @@
+body{
+    background-color:#424549;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Courier New', Courier, monospace;
+    width: auto;
+    height: auto;
+    
+}
+#namebg{
+    position: absolute;
+}
+#nameinput{
+    margin-top: 100px;
+    margin-left: 25%;
+    width: 600px;
+    height: 400px;
+    position:absolute;
+    background-color: whitesmoke;
+    border-radius: 5%;
+}
+#bg{
+    background-color: #36393e;
+    width: 1320px;
+    height: 612px;
+}
+.main{
+    display: flex;
+    
+}
+.navbar{
+    overflow: hidden;
+    height: 30px;
+    background-color: #282b30;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    margin: 0%;
+    
+}
+.navbar p{
+    font-weight: bold;
+}
+.userimg{
+    border-radius: 50%;
+}
+.users{
+    overflow: hidden;
+    
+    background-color: #1e2124;
+    width: 70px;
+    height: 612px;
+    
+}
+.userslist{
+    list-style-type: none;
+    margin: 0%;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-top: 0px;
+    
+    
+}
+.userslist li{
+    
+   margin-top: 10px;
+    
+}
+.userslist li input{
+    
+    border-radius: 50%;
+    
+    
+}
+.userslist li input:hover{
+    
+    border-radius: 20%;
+    
+}
+.me{
+    background-color:#36393e;
+    width: 230px;
+    height: 610px;
+   
+}
+.inputs{
+    padding-top: 10px;
+    
+    bottom: 0px;
+    position: fixed;
+    width: 230px;
+    height: 50px;
+    background-color: #282b30;
+    
+    
+}
+.inputss{
+    margin-left: 25px;
+}
+
+
+.inputs svg{
+    margin-left: 6px;
+    margin-bottom: 7px;
+    width: 20px;
+    height: 20px;
+    
+}
+.cizgi1{
+    width: 50px;
+    margin-right: 18px;
+    margin-bottom: 15px;
+}
+.mainuserpanel{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.mainuserpanel input{
+    border-radius: 50%;
+}
+.mainuserpanel input:hover{
+    border-radius: 20%;
+}
+.messageprofile{
+    
+    overflow: hidden;
+    background-color: #424549;
+    height: 610px;
+    width:1000px;
+    
+    
+    
+    
+    
+}
+
+#yaziIsim{
+    margin-left: 250px;
+    margin-top: 130px;
+}
+#kabulbtn{
+    margin-left: 240px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10%;
+}
+#nameinput input{
+    
+    margin-left: 200px;
+    margin-bottom: 35px;
+    border-radius: 5px;
+    
+}

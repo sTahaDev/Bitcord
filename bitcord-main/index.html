@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="./src/fonts/fontawesome_4.7.0.min.css">
+    
+    
+    <title>Bitcord</title>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="navbar">
+            <p>Bitcord</p>
+        </div>
+        <div class="main">
+            <div id="namebg">
+                <div id="nameinput">
+                    
+                    <h3 id="yaziIsim">
+                        İSİM YAZ
+                    </h3>
+                    <input type="text" id="isiminput">
+                    <button id="kabulbtn">KABUL</button>
+                </div>
+                <div id="bg"></div>
+                
+            </div>
+            
+            
+            <div class="users">
+                
+                <div class="mainuserpanel">
+                    <input type="image" src="data:image/png;base64,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" width="50px">
+                    <hr class="cizgi1">
+                </div>
+                
+                <ul class="userslist">
+                    
+                    
+                    
+                </ul>
+            </div>
+            
+            <div class="me">
+                
+                <div class="inputs">
+                    <dic class="inputss">
+                        <img class="userimg" src="./src/img/defPP.png" width="35px" height="35px" alt="">
+                    
+                        <i class="fa-thin fa-microphone-lines"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-mic-mute-fill" viewBox="0 0 16 16">
+                            <path d="M13 8c0 .564-.094 1.107-.266 1.613l-.814-.814A4.02 4.02 0 0 0 12 8V7a.5.5 0 0 1 1 0v1zm-5 4c.818 0 1.578-.245 2.212-.667l.718.719a4.973 4.973 0 0 1-2.43.923V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 1 0v1a4 4 0 0 0 4 4zm3-9v4.879L5.158 2.037A3.001 3.001 0 0 1 11 3z"/>
+                            <path d="M9.486 10.607 5 6.12V8a3 3 0 0 0 4.486 2.607zm-7.84-9.253 12 12 .708-.708-12-12-.708.708z"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-headphones" viewBox="0 0 16 16">
+                            <path d="M8 3a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V8a6 6 0 1 1 12 0v5a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1V8a5 5 0 0 0-5-5z"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-gear-fill" viewBox="0 0 16 16">
+                            <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"/>
+                        </svg>
+                    </dic>
+                    
+                    
+                </div>
+            </div>
+            <div class="messageprofile">
+                <h1>isim</h1>
+                <div class="mesaage">
+                    <input type="image" src="./src/img/defPP.png" width="38px">
+                    <h3></h4>
+                </div>
+                <div class="mesaage">
+                    <input type="image" src="./src/img/defPP.png" width="38px">
+                    <h3></h4>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+    </div>
+    <script src="./users.js"></script>
+    <script src="./src/jquery/jquery-3.6.3.min.js"></script>
+    <script src="./app.js"></script>
+    
+    
+</body>
+</html>
